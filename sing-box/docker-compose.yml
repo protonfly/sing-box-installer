@@ -7,8 +7,8 @@ services:
     restart: unless-stopped
     # network_mode: "host"
     ports:
-      - 80:80
-      - 443:443
+      - 81:81
+      - 446:446
       - 8090:8090
       - 10080-10085:10080-10085/udp
     volumes:
