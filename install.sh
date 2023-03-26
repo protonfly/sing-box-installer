@@ -407,8 +407,8 @@ runContainer() {
     } || {
         docker run -itd --name sing-box \
         --restart=unless-stopped \
-        -p 80:80 \
-        -p 443:443 \
+        -p 81:81 \
+        -p 446:446 \
         -p 8090:8090 \
         -p 10080-10085:10080-10085/udp \
         -v $PWD/data:/data \
